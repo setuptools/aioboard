@@ -19,9 +19,11 @@ aioboard — это модуль для управления Telegram-ботам
 ## Установка
 
 клонирование репозитория
+
 `git clone https://github.com/setuptools/aioboard.git`
 
-установка модуля:
+установка модуля
+
 `pip install .`
 
 ## Быстрый старт
