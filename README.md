@@ -26,6 +26,10 @@ aioboard — это модуль для управления Telegram-ботам
 
 `pip install .`
 
+для уставноки node_modules надо перейти в папку `./web_app` и прописать команду
+
+`npm install .`
+
 ## Быстрый старт
 
 
