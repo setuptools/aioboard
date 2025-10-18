@@ -1,0 +1,9 @@
+aiogram
+aiosqlite
+dotenv
+flask
+waitress
+netifaces
+quart
+hypercorn
+quart-cors

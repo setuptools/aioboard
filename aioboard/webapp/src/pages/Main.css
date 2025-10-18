@@ -1,0 +1,146 @@
+
+
+
+.main{
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:10px;
+
+    height:100%;
+
+    overflow: visible;
+    overflow-y:hidden;
+
+    align-items:center;
+}
+
+
+.main .bot-image{
+
+    position: relative;
+    border-radius:360px;
+
+    width: 120px;
+    
+}
+
+.main .main-container{
+    position: relative;
+
+    width: 520px;
+}
+
+
+.main .main-section{
+    display:flex;
+    flex-direction:column;
+    overflow: visible;
+
+    gap:10px;
+
+    box-sizing:border-box;
+    padding:10px;
+
+    border-radius:15px;
+    
+    box-shadow: var(--shadow);
+
+    width: 520px;
+    background-color:var(--main-color);
+    align-items:center;
+}
+
+.main .main-section:first-child{
+    background-color:rgba(1,1,1,0);
+    box-shadow:none;
+
+}
+
+.main .main-section-in{
+    position: relative;
+
+    width: 100%;
+
+    gap:20px;
+    box-sizing:border-box;
+
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 10px;
+    
+    font-size:13px;
+
+    align-items:center;    
+
+    flex-wrap:wrap;
+
+    display: flex;
+
+}
+
+.main .main-section-in input, .main-section-in textarea{
+    border: rgba(0, 0, 0, 1);
+    border-radius:5px;
+    outline: none;  
+    box-sizing:border-box;
+
+    color:var(--text-color);
+
+    background-color:var(--main-color__2);
+
+    width: 220px;
+    height:30px;
+    font-size:14px;
+    padding-left:5px;
+
+    box-shadow: var(--shadow);
+}
+
+
+
+.save-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;   
+    -ms-user-select: none; 
+
+    box-sizing:border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    border-radius:15px;
+
+    align-items: center;
+
+    width: 520px;
+    height: 50px;
+
+    bottom: 10px;
+
+    gap: 10px;
+
+    background-color:var(--main-color__2);
+
+}
+
+.save-container button{
+    position: relative;
+
+    border: none;
+    outline: none;
+
+
+    cursor: pointer;
+
+    width: 60px;
+    height: 70%;
+
+    border-radius:10px;
+}

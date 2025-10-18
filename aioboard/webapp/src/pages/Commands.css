@@ -1,0 +1,147 @@
+
+
+.commands{
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    overflow-y: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+}
+
+
+.commands-filters{
+    position: relative;
+
+    box-shadow: var(--shadow);
+
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background-color: var(--main-color);
+    border-radius: 12px;
+}
+
+.commands-filters input{
+    position: relative;
+
+    height: 50%;
+    width: 100%;
+
+    padding-left: 5px;
+
+    border-radius: 6px;
+
+    outline:none;
+    border: none;
+
+    background-color: var(--main-color__2);
+    color:var(--text-color);
+    box-shadow: var(--shadow);
+
+}
+
+.commands-filters button{
+    position:relative;
+
+    align-self: center;
+
+    outline:none;
+    border: none;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--save-button-color);
+    box-shadow: var(--shadow);
+
+    border-radius: 6px;
+}
+
+
+.commands-container{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    overflow-y: auto;
+
+    width: 100%;
+    height: 100%;
+}
+.commands-container::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.command-info{
+    position: relative;
+    box-shadow: var(--shadow);
+
+    box-sizing: border-box;
+    padding: 10px;
+
+
+    display:flex;
+    flex-direction: row;
+    gap:7px;
+
+    width: 100%;
+
+    background-color: var(--main-color);
+    border-radius: 12px;
+}
+
+.command-info button{
+    position:absolute;
+
+    align-self: center;
+
+    right: 10px;
+
+    outline:none;
+    border: none;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--delete-button-color);
+    box-shadow: var(--shadow);
+
+    border-radius: 6px;
+}
+
+.command-info input{
+    position: relative;
+
+    height: 23px;
+    border-radius: 6px;
+
+    box-sizing: border-box;
+
+    outline:none;
+    border: none;
+
+    background-color: var(--main-color__2);
+    box-shadow: var(--shadow);
+}
