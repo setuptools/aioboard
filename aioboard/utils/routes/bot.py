@@ -24,7 +24,7 @@ async def botAvatar():
     path = None
 
     if photos.total_count > 0:
-        path = os.path.abspath(os.path.join(os.path.dirname(__file__),"../../webapp/data/icons/bot_avatar.png"))
+        path = os.path.abspath(os.path.join(os.path.dirname(__file__),"../webapp/build/data/icons/bot_avatar.png"))
     
         file_id = photos.photos[0][-1].file_id  # Самая большая версия первой фотографии
 
@@ -38,7 +38,7 @@ async def botAvatar():
             return await quart.send_file(
             os.path.abspath(os.path.join(
                 os.path.dirname(__file__),
-                "../../webapp/data/icons/bot_non_avatar.png"
+                "../webapp/build/data/icons/bot_non_avatar.png"
             )),
             mimetype="image/png"
         )

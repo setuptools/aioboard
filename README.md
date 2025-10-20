@@ -18,7 +18,6 @@ aioboard — это модуль для управления Telegram-ботам
 
 ## Установка
 
-Стандартный айпи для подключение к сайту: `https://127.0.0.1:3011`
 клонирование репозитория
 
 `git clone https://github.com/setuptools/aioboard.git`
@@ -27,6 +26,9 @@ aioboard — это модуль для управления Telegram-ботам
 
 `pip install .`
 
+для уставноки node_modules надо перейти в папку `./web_app` и прописать команду
+
+`npm install .`
 
 ## Быстрый старт
 
@@ -61,6 +63,5 @@ if __name__ == "__main__":
     asyncio.run(main())
 
 ```
-
 
 
